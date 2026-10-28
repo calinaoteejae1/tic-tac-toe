@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#status {
+  font-size: 20px;
+}
+
+#restart {
+  padding: 10px 20px;
+  cursor: pointer;
+}
